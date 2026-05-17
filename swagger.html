@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Laundry API Swagger</title>
+
+    <link rel="stylesheet"
+    href="https://unpkg.com/swagger-ui-dist/swagger-ui.css" />
+</head>
+<body>
+
+<div id="swagger-ui"></div>
+
+<script src="https://unpkg.com/swagger-ui-dist/swagger-ui-bundle.js"></script>
+
+<script>
+window.onload = () => {
+    window.ui = SwaggerUIBundle({
+        spec: {
+            openapi: "3.0.0",
+            info: {
+                title: "Laundry Shop API",
+                version: "1.0.0",
+                description: "Laundry Management System API"
+            },
+
+            servers: [
+                {
+                    url: "http://localhost/laundry_enhanced/api"
+                }
+            ],
+
+          paths: {
+
+    "/customers.php": {
+        get: {
+            summary: "Get all customers",
+            responses: {
+                "200": {
+                    description: "Customer list"
+                }
+            }
+        }
+    },
+
+    "/orders.php": {
+        get: {
+            summary: "Get all orders",
+            responses: {
+                "200": {
+                    description: "Orders list"
+                }
+            }
+        },
+
+        post: {
+            summary: "Create order",
+
+            requestBody: {
+                required: true,
+                content: {
+                    "application/x-www-form-urlencoded": {
+                        schema: {
+                            type: "object",
+                            properties: {
+                                customer_id: {
+                                    type: "integer"
+                                },
+                                service: {
+                                    type: "string"
+                                },
+                                weight: {
+                                    type: "number"
+                                },
+                                total: {
+                                    type: "number"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+
+            responses: {
+                "200": {
+                    description: "Order created"
+                }
+            }
+        }
+    },
+
+    "/payments.php": {
+        get: {
+            summary: "Get all payments",
+            responses: {
+                "200": {
+                    description: "Payments list"
+                }
+            }
+        }
+    },
+
+    "/reports.php": {
+        get: {
+            summary: "Get reports",
+            responses: {
+                "200": {
+                    description: "Reports data"
+                }
+            }
+        }
+    },
+
+    "/users.php": {
+
+        get: {
+            summary: "Get all users",
+            responses: {
+                "200": {
+                    description: "Users list"
+                }
+            }
+        },
+
+        post: {
+            summary: "Add new user",
+
+            requestBody: {
+                required: true,
+                content: {
+                    "application/x-www-form-urlencoded": {
+                        schema: {
+                            type: "object",
+                            properties: {
+
+                                fullname: {
+                                    type: "string"
+                                },
+
+                                username: {
+                                    type: "string"
+                                },
+
+                                password: {
+                                    type: "string"
+                                },
+
+                                role: {
+                                    type: "string"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+
+            responses: {
+                "200": {
+                    description: "User added successfully"
+                }
+            }
+        }
+    }
+}
+        },
+
+        dom_id: '#swagger-ui'
+    });
+};
+</script>
+
+</body>
+</html>

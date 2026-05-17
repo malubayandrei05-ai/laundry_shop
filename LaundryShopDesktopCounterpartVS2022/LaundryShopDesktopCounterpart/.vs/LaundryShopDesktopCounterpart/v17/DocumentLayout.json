@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\xampp\\htdocs\\laundry_enhanced\\LaundryShopDesktopCounterpartVS2022\\LaundryShopDesktopCounterpart\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6F8A3C1D-4444-4C8F-9F10-123456789ABC}|LaundryShopDesktopCounterpart\\LaundryShopDesktopCounterpart.csproj|c:\\xampp\\htdocs\\laundry_enhanced\\laundryshopdesktopcounterpartvs2022\\laundryshopdesktopcounterpart\\laundryshopdesktopcounterpart\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F8A3C1D-4444-4C8F-9F10-123456789ABC}|LaundryShopDesktopCounterpart\\LaundryShopDesktopCounterpart.csproj|solutionrelative:laundryshopdesktopcounterpart\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F8A3C1D-4444-4C8F-9F10-123456789ABC}|LaundryShopDesktopCounterpart\\LaundryShopDesktopCounterpart.csproj|c:\\xampp\\htdocs\\laundry_enhanced\\laundryshopdesktopcounterpartvs2022\\laundryshopdesktopcounterpart\\laundryshopdesktopcounterpart\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F8A3C1D-4444-4C8F-9F10-123456789ABC}|LaundryShopDesktopCounterpart\\LaundryShopDesktopCounterpart.csproj|solutionrelative:laundryshopdesktopcounterpart\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F8A3C1D-4444-4C8F-9F10-123456789ABC}|LaundryShopDesktopCounterpart\\LaundryShopDesktopCounterpart.csproj|c:\\xampp\\htdocs\\laundry_enhanced\\laundryshopdesktopcounterpartvs2022\\laundryshopdesktopcounterpart\\laundryshopdesktopcounterpart\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F8A3C1D-4444-4C8F-9F10-123456789ABC}|LaundryShopDesktopCounterpart\\LaundryShopDesktopCounterpart.csproj|solutionrelative:laundryshopdesktopcounterpart\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\laundry_enhanced\\LaundryShopDesktopCounterpartVS2022\\LaundryShopDesktopCounterpart\\LaundryShopDesktopCounterpart\\Program.cs",
+              "RelativeDocumentMoniker": "LaundryShopDesktopCounterpart\\Program.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\laundry_enhanced\\LaundryShopDesktopCounterpartVS2022\\LaundryShopDesktopCounterpart\\LaundryShopDesktopCounterpart\\Program.cs",
+              "RelativeToolTip": "LaundryShopDesktopCounterpart\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T03:02:40.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\laundry_enhanced\\LaundryShopDesktopCounterpartVS2022\\LaundryShopDesktopCounterpart\\LaundryShopDesktopCounterpart\\LoginForm.cs",
+              "RelativeDocumentMoniker": "LaundryShopDesktopCounterpart\\LoginForm.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\laundry_enhanced\\LaundryShopDesktopCounterpartVS2022\\LaundryShopDesktopCounterpart\\LaundryShopDesktopCounterpart\\LoginForm.cs",
+              "RelativeToolTip": "LaundryShopDesktopCounterpart\\LoginForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T03:02:36.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DashboardForm.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\laundry_enhanced\\LaundryShopDesktopCounterpartVS2022\\LaundryShopDesktopCounterpart\\LaundryShopDesktopCounterpart\\DashboardForm.cs",
+              "RelativeDocumentMoniker": "LaundryShopDesktopCounterpart\\DashboardForm.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\laundry_enhanced\\LaundryShopDesktopCounterpartVS2022\\LaundryShopDesktopCounterpart\\LaundryShopDesktopCounterpart\\DashboardForm.cs",
+              "RelativeToolTip": "LaundryShopDesktopCounterpart\\DashboardForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T03:02:24.417Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
